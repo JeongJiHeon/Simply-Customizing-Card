@@ -12,7 +12,7 @@ Future Finance A.I. Challenge 2020
 
 ## 2. 모델구현 
 ##### - 모델 1 : StyleGAN v2 < FFHQ dataset Pre-trained Model > + FreezeD/ADA
-##### - 모델 2 : U-GAT-IT
+##### - 모델 2 : U-GAT-I
 ###      < 정해야 할 것 >
 ##### 1. 프레임워크 < TF, keras / Pytorch >
 ##### 2. fine-tuning
@@ -21,3 +21,13 @@ Future Finance A.I. Challenge 2020
 ## 3. PPT작성
 ##### - 작년 수상자(https://github.com/ukiKwon/voice-separater-with-ripTracking)
 ##### - PPT를 어떻게 만들것인지 구상
+
+
+
+
+
+## 2020.08.16 Review
+
+1. 데이터셋 정리 ( 심슨 데이터셋 / 웹툰 데이터셋 문의 )
+2. 모델에 대한 이해
+3. GPU서버 대여 ( Ubuntu / GPU 15TFLOPS / Keras, PyTorch / Python)
