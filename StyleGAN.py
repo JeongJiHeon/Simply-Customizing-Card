@@ -418,10 +418,10 @@ class Generator(nn.Module):
 
         in_channel = self.channels[4]
 
-        for layer_idx in range(self.num_layers):
-            res = (layer_idx + 5) // 2
-            shape = [1, 1, 2 ** res, 2 ** res]
-            self.noises.register_buffer(f'noise_{layer_idx}', torch.randn(*shape))
+#        for layer_idx in range(self.num_layers):
+#            res = (layer_idx + 5) // 2
+#            shape = [1, 1, 2 ** res, 2 ** res]
+#            self.noises.register_buffer(f'noise_{layer_idx}', torch.randn(*shape))
 
         for i in range(3, self.log_size + 1):
             out_channel = self.channels[2 ** i]
