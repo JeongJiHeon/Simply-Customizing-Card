@@ -8,6 +8,7 @@ Future Finance A.I. Challenge 2020
 ###     < 정해야 할 것 >
 #####  1. Resize할 이미지 사이즈 ( 이말년 할때 256x256으로 했다고함, 근데 메모리 터질 가능성 높음)
 #####  2. 데이터 갯수 ( 많으면 많을수록 좋음 )
+#### (수정) 웹툰 -> 심슨 데이터셋
 
 ## 2. 모델구현 
 ##### - 모델 1 : StyleGAN v2 < FFHQ dataset Pre-trained Model > + FreezeD/ADA
