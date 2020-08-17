@@ -1,22 +1,20 @@
 # Simply-Customizing-Card
 Future Finance A.I. Challenge 2020
-## 주제 : 내 카드를 GAN단하게 커스터마이징하자
+### 주제 : 내 카드를 GAN단하게 커스터마이징하자
+##### Idea : [Face2Malnyun](https://github.com/bryandlee/malnyun_faces)
+
+
 ## 1. 데이터 크롤링 ( 여신작가 / 복학왕 ) + 데이터 전처리 ( 얼굴만 따로 캡쳐 )
 ##### - 다양한 사람이면 좋음
 ##### - 이말년 그림체는 500장 / 다른 작가님들은 3 channel이여서 더 많이 필요할 수도 있음.
-##### - 크기는 상관 없습니다 ( 어차피 다 Resize 할 예정이지만 크면 클 수록 좋음 )
-###     < 정해야 할 것 >
-#####  1. Resize할 이미지 사이즈 ( 이말년 할때 256x256으로 했다고함, 근데 메모리 터질 가능성 높음)
-#####  2. 데이터 갯수 ( 많으면 많을수록 좋음 )
-#### (수정) 웹툰 -> 심슨 데이터셋
+##### - 크기는 상관 없습니다 ( 어차피 다 256으로 Resize 하고 다시 64 or 128로 줄일 예정이지만 크면 클 수록 좋음 )
+##### - 만일 웹툰에서 데이터 허락을 받지 못하면, 다른 데이터셋을 찾아봐야 할지도.. ex) [Simpson1](https://www.kaggle.com/alexattia/the-simpsons-characters-dataset), [Simpson2](https://www.kaggle.com/kostastokis/simpsons-faces), [Anime](https://www.kaggle.com/splcher/animefacedataset), [Cartoon](https://google.github.io/cartoonset/)
+
 
 ## 2. 모델구현 
-##### - 모델 1 : StyleGAN v2 < FFHQ dataset Pre-trained Model > + FreezeD/ADA
-##### - 모델 2 : U-GAT-I
-###      < 정해야 할 것 >
-##### 1. 프레임워크 < TF, keras / Pytorch >
-##### 2. fine-tuning
-##### 3. 미세조정(FreezeD는 알겠는데 ADA는 모르곘음.. 찾아봐야 할 듯)
+##### - 모델 1 : StyleGAN v2 < FFHQ dataset Pre-trained Model >
+##### - 모델 2 : U-GAT-IT
+
 
 ## 3. PPT작성
 ##### - 작년 수상자(https://github.com/ukiKwon/voice-separater-with-ripTracking)
@@ -31,3 +29,19 @@ Future Finance A.I. Challenge 2020
 1. 데이터셋 정리 ( 심슨 데이터셋 / 웹툰 데이터셋 문의 )
 2. 모델에 대한 이해
 3. GPU서버 대여 ( Ubuntu / GPU 15TFLOPS / Keras, PyTorch / Python)
+
+## 2020.08.17 Review
+
+1. StyleGAN / U-GAT-IT 구현완료 ( 파라미터 튜닝은 조금 살펴봐야됨, 모델 이해 X, FFHQ Pre-trained 모델 확인 )
+
+|Model|Paper|Code|
+|:---|:---|:---|
+| U-GAT-IT | [Paper](https://arxiv.org/pdf/1907.10830.pdf) | [GitHub](https://github.com/znxlwm/UGATIT-pytorch) |
+| StyleGAN | [Paper](https://arxiv.org/pdf/1812.04948.pdf) | [GitHub](https://github.com/rosinality/stylegan2-pytorch) |
+
+2. FreezeD / ADA 논문 리뷰
+
+|Method|Paper|Review|
+|:---|:---|:---|
+| FreezeD(FreezeDiscriminator) | [Paper](https://arxiv.org/pdf/2002.10964.pdf) | Pretrained된 Discriminator의 low-layer을 Freeze시키고 High-layer만 학습시키는 방법 |
+| ADA(AdaptiveDataAugmentation) | [Paper](https://research.nvidia.com/sites/default/files/pubs/2020-06_Training-Generative-Adversarial/karras2020-limited-data.pdf )| 5가지 방법으로 확률적으로 Data Augmentation하는 방법 논문 p.19-20 참조 |
