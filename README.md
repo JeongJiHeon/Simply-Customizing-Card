@@ -34,4 +34,5 @@ Future Finance A.I. Challenge 2020
 
 ## 2020.08.16 Review
 
-1. StyleGAN / U-GAT-IT 구현완료 ( 파라미터 튜닝은 조금 살펴봐야됨, 모델 이해 X )
+1. StyleGAN / U-GAT-IT 구현완료 ( 파라미터 튜닝은 조금 살펴봐야됨, 모델 이해 X, FFHQ Dataset으로 Pre-trained 모델 확인 )
+<참조 : https://github.com/rosinality/stylegan2-pytorch (StyleGAN) ,https://github.com/znxlwm/UGATIT-pytorch (U-GAT-IT)>
