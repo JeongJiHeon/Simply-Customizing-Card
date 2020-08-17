@@ -1,6 +1,7 @@
 # Simply-Customizing-Card
 Future Finance A.I. Challenge 2020
 ## 주제 : 내 카드를 GAN단하게 커스터마이징하자
+##### Idea : https://github.com/bryandlee/malnyun_faces
 ## 1. 데이터 크롤링 ( 여신작가 / 복학왕 ) + 데이터 전처리 ( 얼굴만 따로 캡쳐 )
 ##### - 다양한 사람이면 좋음
 ##### - 이말년 그림체는 500장 / 다른 작가님들은 3 channel이여서 더 많이 필요할 수도 있음.
