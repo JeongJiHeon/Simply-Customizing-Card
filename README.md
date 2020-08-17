@@ -12,7 +12,7 @@ Future Finance A.I. Challenge 2020
 
 
 ## 2. 모델구현 
-##### - 모델 1 : StyleGAN v2 < FFHQ dataset Pre-trained Model > + FreezeD/ADA
+##### - 모델 1 : StyleGAN v2 < FFHQ dataset Pre-trained Model >
 ##### - 모델 2 : U-GAT-IT
 
 
