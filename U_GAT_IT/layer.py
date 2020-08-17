@@ -3,13 +3,16 @@ import torch.nn as nn
 from torch.nn.parameter import Parameter
 
 class ResnetBlock(nn.Module):
-    def __init__(self, dim, use_bias):
+    def __init__(self, dim, use_bias, activation = 'relu'):
         super(ResnetBlock, self).__init__()
         conv_block = []
         conv_block += [nn.ReflectionPad2d(1),
                        nn.Conv2d(dim, dim, kernel_size=3, stride=1, padding=0, bias=use_bias),
-                       nn.InstanceNorm2d(dim),
-                       nn.ReLU(True)]
+                       nn.InstanceNorm2d(dim)]
+        if activation == 'relu':
+            conv_block += [nn.ReLU(True)]
+        elif activation == 'gelu':
+            conv_block += [nn.GELU()]
 
         conv_block += [nn.ReflectionPad2d(1),
                        nn.Conv2d(dim, dim, kernel_size=3, stride=1, padding=0, bias=use_bias),
@@ -23,12 +26,15 @@ class ResnetBlock(nn.Module):
 
 
 class ResnetAdaILNBlock(nn.Module):
-    def __init__(self, dim, use_bias):
+    def __init__(self, dim, use_bias, activation = 'relu'):
         super(ResnetAdaILNBlock, self).__init__()
         self.pad1 = nn.ReflectionPad2d(1)
         self.conv1 = nn.Conv2d(dim, dim, kernel_size=3, stride=1, padding=0, bias=use_bias)
         self.norm1 = adaILN(dim)
-        self.relu1 = nn.ReLU(True)
+        if activation == 'relu':
+            self.act = nn.ReLU(True)
+        elif activation == 'gelu':
+            self.act = nn.GELU()
 
         self.pad2 = nn.ReflectionPad2d(1)
         self.conv2 = nn.Conv2d(dim, dim, kernel_size=3, stride=1, padding=0, bias=use_bias)
@@ -38,7 +44,7 @@ class ResnetAdaILNBlock(nn.Module):
         out = self.pad1(x)
         out = self.conv1(out)
         out = self.norm1(out, gamma, beta)
-        out = self.relu1(out)
+        out = self.act(out)
         out = self.pad2(out)
         out = self.conv2(out)
         out = self.norm2(out, gamma, beta)
