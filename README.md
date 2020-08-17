@@ -31,3 +31,7 @@ Future Finance A.I. Challenge 2020
 1. 데이터셋 정리 ( 심슨 데이터셋 / 웹툰 데이터셋 문의 )
 2. 모델에 대한 이해
 3. GPU서버 대여 ( Ubuntu / GPU 15TFLOPS / Keras, PyTorch / Python)
+
+## 2020.08.16 Review
+
+1. StyleGAN / U-GAT-IT 구현완료 ( 파라미터 튜닝은 조금 살펴봐야됨, 모델 이해 X )
