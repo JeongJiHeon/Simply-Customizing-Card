@@ -178,7 +178,7 @@ class Discriminator(nn.Module):
         if activation == 'leakyrelu':
             self.act = nn.LeakyReLU(0.2, True)
         elif activation == 'gelu':
-            self.act == nn.GELU()
+            self.act = nn.GELU()
 
         self.pad = nn.ReflectionPad2d(1)
         self.conv = nn.utils.spectral_norm(
