@@ -19,6 +19,11 @@ Future Finance A.I. Challenge 2020
 ##### 2. fine-tuning
 ##### 3. 미세조정(FreezeD는 알겠는데 ADA는 모르곘음.. 찾아봐야 할 듯)
 
+|Method|Paper|설명|
+|:------|:---|:|
+| FreezeD (Freeze Discriminator) | [paper](https://arxiv.org/pdf/2002.10964.pdf) | Pretrained된 모델의 low-layer을 Freeze시키고 High-layer만 학습시키는 방법 |
+| ADA (Adaptive Data Augmentation)| [paper](https://research.nvidia.com/sites/default/files/pubs/2020-06_Training-Generative-Adversarial/karras2020-limited-data.pdf )| 5가지 방법으로 확률적으로 Data Augmentation하는 방법 논문 p.19-20 참조 |
+
 ## 3. PPT작성
 ##### - 작년 수상자(https://github.com/ukiKwon/voice-separater-with-ripTracking)
 ##### - PPT를 어떻게 만들것인지 구상
@@ -39,5 +44,5 @@ Future Finance A.I. Challenge 2020
 
 |Model|Paper|Code|
 |:------|:---|:---|
-| U-GAT-IT | https://arxiv.org/pdf/1907.10830.pdf | https://github.com/znxlwm/UGATIT-pytorch |
-| StyleGAN | https://arxiv.org/pdf/1812.04948.pdf | https://github.com/rosinality/stylegan2-pytorch |
+| U-GAT-IT | [paper](https://arxiv.org/pdf/1907.10830.pdf) | [github](https://github.com/znxlwm/UGATIT-pytorch) |
+| StyleGAN | [paper](https://arxiv.org/pdf/1812.04948.pdf) | [github](https://github.com/rosinality/stylegan2-pytorch) |
