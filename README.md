@@ -7,18 +7,13 @@ Future Finance A.I. Challenge 2020
 ##### - 다양한 사람이면 좋음
 ##### - 이말년 그림체는 500장 / 다른 작가님들은 3 channel이여서 더 많이 필요할 수도 있음.
 ##### - 크기는 상관 없습니다 ( 어차피 다 256으로 Resize 할 예정이지만 크면 클 수록 좋음 )
-###     < 정해야 할 것 >
-#####  2. 데이터 갯수 ( 많으면 많을수록 좋음 )
-#### (수정) 웹툰 -> 심슨 데이터셋
+##### - 만일 웹툰에서 데이터 허락을 받지 못하면, 다른 데이터셋을 찾아봐야 할지도..
+
 
 ## 2. 모델구현 
 ##### - 모델 1 : StyleGAN v2 < FFHQ dataset Pre-trained Model > + FreezeD/ADA
 ##### - 모델 2 : U-GAT-IT
 
-|Method|Paper|설명|
-|:------|:---|:---|
-| FreezeD (Freeze Discriminator) | [paper](https://arxiv.org/pdf/2002.10964.pdf) | Pretrained된 모델의 low-layer을 Freeze시키고 High-layer만 학습시키는 방법 |
-| ADA (Adaptive Data Augmentation)| [paper](https://research.nvidia.com/sites/default/files/pubs/2020-06_Training-Generative-Adversarial/karras2020-limited-data.pdf )| 5가지 방법으로 확률적으로 Data Augmentation하는 방법 논문 p.19-20 참조 |
 
 ## 3. PPT작성
 ##### - 작년 수상자(https://github.com/ukiKwon/voice-separater-with-ripTracking)
@@ -40,5 +35,12 @@ Future Finance A.I. Challenge 2020
 
 |Model|Paper|Code|
 |:------|:---|:---|
-| U-GAT-IT | [paper](https://arxiv.org/pdf/1907.10830.pdf) | [github](https://github.com/znxlwm/UGATIT-pytorch) |
-| StyleGAN | [paper](https://arxiv.org/pdf/1812.04948.pdf) | [github](https://github.com/rosinality/stylegan2-pytorch) |
+| U-GAT-IT | [Paper](https://arxiv.org/pdf/1907.10830.pdf) | [GitHub](https://github.com/znxlwm/UGATIT-pytorch) |
+| StyleGAN | [Paper](https://arxiv.org/pdf/1812.04948.pdf) | [GitHub](https://github.com/rosinality/stylegan2-pytorch) |
+
+2. FreezeD / ADA 논문 리뷰
+
+|Method|Paper|Review|
+|:------|:---|:---|
+| FreezeD (Freeze Discriminator) | [Paper](https://arxiv.org/pdf/2002.10964.pdf) | Pretrained된 Discriminator의 low-layer을 Freeze시키고 High-layer만 학습시키는 방법 |
+| ADA (Adaptive Data Augmentation)| [Paper](https://research.nvidia.com/sites/default/files/pubs/2020-06_Training-Generative-Adversarial/karras2020-limited-data.pdf )| 5가지 방법으로 확률적으로 Data Augmentation하는 방법 논문 p.19-20 참조 |
