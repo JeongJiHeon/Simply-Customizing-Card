@@ -45,3 +45,8 @@ Future Finance A.I. Challenge 2020
 |:---|:---|:---|
 | FreezeD(FreezeDiscriminator) | [Paper](https://arxiv.org/pdf/2002.10964.pdf) | Pretrained된 Discriminator의 low-layer을 Freeze시키고 High-layer만 학습시키는 방법 |
 | ADA(AdaptiveDataAugmentation) | [Paper](https://research.nvidia.com/sites/default/files/pubs/2020-06_Training-Generative-Adversarial/karras2020-limited-data.pdf )| 5가지 방법으로 확률적으로 Data Augmentation하는 방법 논문 p.19-20 참조 |
+
+## 2020.08.18 Review
+
+1. 데이터 수집
+2. Docker 시스템 구축
