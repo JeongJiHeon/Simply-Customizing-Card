@@ -8,8 +8,7 @@ Future Finance A.I. Challenge 2020
 ##### - 다양한 사람이면 좋음
 ##### - 이말년 그림체는 500장 / 다른 작가님들은 3 channel이여서 더 많이 필요할 수도 있음.
 ##### - 크기는 상관 없습니다 ( 어차피 다 256으로 Resize 하고 다시 64 or 128로 줄일 예정이지만 크면 클 수록 좋음 )
-##### - 만일 웹툰에서 데이터 허락을 받지 못하면, 다른 데이터셋을 찾아봐야 할지도.. ex) [Simpson1](https://www.kaggle.com/alexattia/the-simpsons-characters-dataset), [Simpson2](https://www.kaggle.com/kostastokis/simpsons-faces), [Anime](https://www.kaggle.com/splcher/animefacedataset), [Cartoon](https://google.github.io/cartoonset/)
-
+##### - 만일 웹툰에서 데이터 허락을 받지 못하면, 다른 데이터셋을 찾아봐야 할지도.. ex) [Simpson1](https://www.kaggle.com/alexattia/the-simpsons-characters-dataset), [Simpson2](https://www.kaggle.com/kostastokis/simpsons-faces), [Anime](https://www.kaggle.com/splcher/animefacedataset), [Cartoon](https://google.github.io/cartoonset/)[selfie2anime](https://www.kaggle.com/arnaud58/selfie2anime)
 
 ## 2. 모델구현 
 ##### - 모델 1 : StyleGAN v2 < FFHQ dataset Pre-trained Model >
@@ -50,3 +49,15 @@ Future Finance A.I. Challenge 2020
 
 1. 데이터 수집
 2. Docker 시스템 구축
+
+## 2020.08.19 Review
+
+1. U-GAT-IT 모델구조 파악
+- Local Discriminator ( n_layer = 5 ) 와 Global Discriminator ( n_layer = 7 ) 으로 (2개의 Discriminator + 1개의 Generator) x 2
+- Loss : Adverserial Loss (MSE) + Cycle Loss (MAE) + Identity Loss (MAE) + CAM Loss(Class Activation Map) (BCE) # 학습 안되면 VGG Loss 추가해볼만 할 것 같음
+- Discriminator에 Spectral Normalization 사용
+- CAM ( Class Activation Map ) : class classification에 영향을 주는 feature map / global adaptive maxpool + global adaptive avgpool
+- AdaLIN ( Adaptive Layer Instance Normalization ) : Instance (channel-wise), Layer (layer-wise) 을 adaptive하게 normalization
+
+2. Dataset 추가
+- selfie2anime
