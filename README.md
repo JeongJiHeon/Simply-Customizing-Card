@@ -55,7 +55,7 @@ Future Finance A.I. Challenge 2020
 1. U-GAT-IT 모델구조 파악
 - Local Discriminator ( n_layer = 5 ) 와 Global Discriminator ( n_layer = 7 ) 으로 (2개의 Discriminator + 1개의 Generator) x 2
 - Loss : Adverserial Loss (MSE) + Cycle Loss (MAE) + Identity Loss (MAE) + CAM Loss(Class Activation Map) (BCE) 
-    ##### 학습 안되면 VGG Loss 추가해볼만 할 것 같음
+-- 학습 안되면 VGG Loss 추가해볼만 할 것 같음
 - Discriminator에 Spectral Normalization 사용
 - CAM ( Class Activation Map ) : class classification에 영향을 주는 feature map / global adaptive maxpool + global adaptive avgpool
 - AdaLIN ( Adaptive Layer Instance Normalization ) : Instance (channel-wise), Layer (layer-wise) 을 adaptive하게 normalization
