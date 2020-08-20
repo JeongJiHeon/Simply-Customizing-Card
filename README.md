@@ -65,7 +65,7 @@ Future Finance A.I. Challenge 2020
 ## 2020.08.20 Review
 
 1. github 세팅 / docker 생성
------해야할일-----
+### -------해야할일-------
 2. (지헌)     main pipiline 구성
 3. (주성/병지) GAN구조 파악 / DCGAN / ADA / PyTorch tutorial
 
