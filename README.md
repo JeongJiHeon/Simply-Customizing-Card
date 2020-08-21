@@ -75,5 +75,9 @@ Future Finance A.I. Challenge 2020
 
 ## 2020.08.21 Review
 
-1. Main 파이프라인 구현 (80%)
+1. Main 파이프라인 구현 완료
+2. 학습중 ( face dataset : [face](https://github.com/JingchunCheng/All-Age-Faces-Dataset)에서 3500개 추출해서 사용중)
+3. 하이퍼파라피터 조정중
+
+
 
