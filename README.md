@@ -88,5 +88,17 @@ Future Finance A.I. Challenge 2020
 ## 2020.08.23 Review
 
 1. 학습중
-2. Selfie2Anime 데이터셋으로 Pretrained한 모데 발견 ( FreezeD 이용해서 Transfer Learning 해볼 예정 )
+2. Selfie2Anime 데이터셋으로 Pretrained한 모델 발견 ( FreezeD 이용해서 Transfer Learning 해볼 예정 )
+
+## 2020.08.23 Review
+
+1. Dataset 의 문제인지 학습이 잘 안됨
+- [ ] Transfer Learning ( FreezeD )
+- [ ] Dataset ( Selfie2Anime )
+- [ ] ADA 추가
+
+
+
+
+
 
