@@ -79,8 +79,14 @@ Future Finance A.I. Challenge 2020
 2. 학습중 ( face dataset : [face](https://github.com/JingchunCheng/All-Age-Faces-Dataset)에서 3500개 추출해서 사용중)
 3. 하이퍼파라피터 조정중
 
+
 ## 2020.08.22 Review
 
-1. 학습중 - 120K후에 Linear하게 lr->0으로 감소
+1. 학습중 - 120K후에 Linear하게 lr->0으로 감소 ( 실수한거 발견 - 210K후에 실험 중단)
 
+
+## 2020.08.23 Review
+
+1. 학습중
+2. Selfie2Anime 데이터셋으로 Pretrained한 모데 발견 ( FreezeD 이용해서 Transfer Learning 해볼 예정 )
 
