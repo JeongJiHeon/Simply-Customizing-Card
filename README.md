@@ -1,4 +1,4 @@
-# Simply-Customizing-Card
+# Simply Customizing Card
 Future Finance A.I. Challenge 2020
 ### 주제 : 내 카드를 GAN단하게 커스터마이징하자
 ##### Idea : [Face2Malnyun](https://github.com/bryandlee/malnyun_faces)
