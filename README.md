@@ -98,6 +98,12 @@ Future Finance A.I. Challenge 2020
 - [ ] ADA 추가
 
 
+## 2020.08.24 Review
+
+1. 데이터셋 변화( Selfie2Anime ), 모델 감량( 6res -> 4res ), 전처리 추가 -> 학습 잘됨.
+
+
+
 
 
 
