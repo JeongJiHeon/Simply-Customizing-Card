@@ -90,7 +90,7 @@ Future Finance A.I. Challenge 2020
 1. 학습중
 2. Selfie2Anime 데이터셋으로 Pretrained한 모델 발견 ( FreezeD 이용해서 Transfer Learning 해볼 예정 )
 
-## 2020.08.23 Review
+## 2020.08.24 Review
 
 1. Dataset 의 문제인지 학습이 잘 안됨
 - [ ] Transfer Learning ( FreezeD )
@@ -98,13 +98,17 @@ Future Finance A.I. Challenge 2020
 - [ ] ADA 추가
 
 
-## 2020.08.24 Review
+## 2020.08.25 Review
 
 1. 데이터셋 변화( Selfie2Anime ), 모델 감량( 6res -> 4res ), 전처리 추가 -> 학습 잘됨.
 
 
+## 2020.08.26 Review
 
-
+1. 이미지 사이즈 증가 -> 96에서 192
+2. Cycle Coefficieint, Identity Coefficieint (10,10) -> (15,15)
+3. 주성님 서버 받으면 transfer learning 해볼 예정
+4. 병지님 인물데이터 받으며 웹툰데이터셋 구성
 
 
 
