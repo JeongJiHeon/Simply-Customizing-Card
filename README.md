@@ -22,6 +22,10 @@ Future Finance A.I. Challenge 2020
 
 
 
+<details>
+<summary>접기/펼치기 버튼</summary>
+<div markdown="1">
+
 
 ## 2020.08.16 Review
 
@@ -109,6 +113,9 @@ Future Finance A.I. Challenge 2020
 2. Cycle Coefficieint, Identity Coefficieint (10,10) -> (15,15)
 3. 주성님 서버 받으면 transfer learning 해볼 예정
 4. 병지님 인물데이터 받으며 웹툰데이터셋 구성
+
+</div>
+</details>
 
 
 ## 2020.08.31 Review
