@@ -19,11 +19,12 @@ Future Finance A.I. Challenge 2020
 ##### - 작년 수상자(https://github.com/ukiKwon/voice-separater-with-ripTracking)
 ##### - PPT를 어떻게 만들것인지 구상
 
-
-
+------------------------------
 
 <details>
-<summary> Part 1. Pre-trained Model  </summary>
+<summary> 
+  Part 1. Pre-trained Model  
+  </summary>
 <div markdown="1">
 
 
