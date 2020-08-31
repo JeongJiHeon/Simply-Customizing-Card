@@ -111,4 +111,7 @@ Future Finance A.I. Challenge 2020
 4. 병지님 인물데이터 받으며 웹툰데이터셋 구성
 
 
+## 2020.08.31 Review
 
+1. Transfer Learning 시작 (webtoon dataset) Cycle, Identity -> (10,10), lr = 0.00001
+2. AIHub에서 받은 인물 데이터셋응 잠시 기각
