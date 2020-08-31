@@ -23,7 +23,7 @@ Future Finance A.I. Challenge 2020
 
 
 <details>
-<summary>접기/펼치기 버튼</summary>
+<summary> Part 1. Pre-trained Model  </summary>
 <div markdown="1">
 
 
