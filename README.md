@@ -126,3 +126,19 @@ Future Finance A.I. Challenge 2020
 
 1. Transfer Learning 시작 (webtoon dataset) Cycle, Identity -> (10,10), lr = 0.00001
 2. AIHub에서 받은 인물 데이터셋은 잠시 기각
+
+## 2020.09.01 Review
+
+1. VGG Loss, TV Loss 추가
+2. Transfer / fine-tuning 시작
+3. 연놈 데이터 추가.
+
+## 2020.09.06 Review
+
+1. VGG Loss 삭제 -> 이유는 모르겠지만 CAM Loss랑 충돌이 일어나는 것 같음
+2. CAM Loss coefficient 2000을 증가
+3. Transfer보다 fine-tuning이 더 성능이 잘나오는 거 같음
+4. TV Loss : 15, lr = 0.0002
+
+
+
