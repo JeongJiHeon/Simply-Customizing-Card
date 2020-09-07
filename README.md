@@ -142,8 +142,8 @@ Future Finance A.I. Challenge 2020
 
 ## 2020.09.07 Review
 1. White-box-Cartoonization 모델 추가
-[paper] https://github.com/SystemErrorWang/White-box-Cartoonization/blob/master/paper/06791.pdf
-[github] https://github.com/SystemErrorWang/White-box-Cartoonization
+[paper](https://github.com/SystemErrorWang/White-box-Cartoonization/blob/master/paper/06791.pdf)
+[github](https://github.com/SystemErrorWang/White-box-Cartoonization)
 2. White-box-Cartoonization 구조 파악 및 정리
 3. pretrain된 모델 데이터로 실행이 잘됨. transfer를 통해 추가 학습 필요없다고 판단.
 
