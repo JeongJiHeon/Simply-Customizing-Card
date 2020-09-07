@@ -120,7 +120,13 @@ Future Finance A.I. Challenge 2020
 
 
 ------------------------------
+------------------------------
 
+<details>
+<summary> 
+  Part 2. Parameter Customizing  
+  </summary>
+<div markdown="1">
 
 ## 2020.08.31 Review
 
@@ -150,5 +156,9 @@ Future Finance A.I. Challenge 2020
 4. Server1 에서 여신강림 mode collapse발생 -> 재학습 (TV Loss : 20, CAM Loss : 1500, lr = 0.0001)
 5. Server2 에서 연놈, 학습 잘 되던 중 80epoch 넘어가면서 overfitting 발생
 
+</div>
+</details>
 
+
+------------------------------
 
