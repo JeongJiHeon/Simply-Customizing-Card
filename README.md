@@ -156,6 +156,11 @@ Future Finance A.I. Challenge 2020
 4. Server1 에서 여신강림 mode collapse발생 -> 재학습 (TV Loss : 20, CAM Loss : 1500, lr = 0.0001)
 5. Server2 에서 연놈, 학습 잘 되던 중 80epoch 넘어가면서 overfitting 발생
 
+## 2020.09.10 Review
+1. 이미지사이즈 256, light=False로 YSGR/YN 두 개 학습.
+2. YSGR이미지가 256이고 YN이 192라 YN은 잘 안됨.
+3. 서버2에 이미지 사이즈 128, light=False, res_block = 6으로 설정하고 다시 학습중
+
 </div>
 </details>
 
