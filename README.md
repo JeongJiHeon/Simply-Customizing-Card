@@ -43,7 +43,7 @@ Future Finance A.I. Challenge 2020
 |   U-GAT-IT   | [Paper](https://arxiv.org/pdf/1907.10830.pdf) | [Code](https://github.com/znxlwm/UGATIT-pytorch) |
 |   StyleGAN   | [Paper](https://arxiv.org/pdf/1812.04948.pdf) | [Code](https://github.com/rosinality/stylegan2-pytorch) |
 | StyleTransfer| [Paper](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf) | [Code](https://pytorch.org/tutorials/advanced/neural_style_tutorial.html) |
-| WBCartoonizie| [Paper](https://github.com/SystemErrorWang/White-box-Cartoonization/blob/master/paper/06791.pdf) | [Code](https://github.com/SystemErrorWang/White-box-Cartoonization) |
+| WBCartoonization| [Paper](https://github.com/SystemErrorWang/White-box-Cartoonization/blob/master/paper/06791.pdf) | [Code](https://github.com/SystemErrorWang/White-box-Cartoonization) |
 
 2. FreezeD / ADA 논문 리뷰
 
