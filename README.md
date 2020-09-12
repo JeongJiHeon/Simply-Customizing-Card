@@ -43,6 +43,7 @@ Future Finance A.I. Challenge 2020
 |   U-GAT-IT   | [Paper](https://arxiv.org/pdf/1907.10830.pdf) | [Code](https://github.com/znxlwm/UGATIT-pytorch) |
 |   StyleGAN   | [Paper](https://arxiv.org/pdf/1812.04948.pdf) | [Code](https://github.com/rosinality/stylegan2-pytorch) |
 | StyleTransfer| [Paper](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf) | [Code](https://pytorch.org/tutorials/advanced/neural_style_tutorial.html) |
+| WBCartoonizie| [Paper](https://github.com/SystemErrorWang/White-box-Cartoonization/blob/master/paper/06791.pdf) | [Code](https://github.com/SystemErrorWang/White-box-Cartoonization) |
 
 2. FreezeD / ADA 논문 리뷰
 
@@ -149,8 +150,6 @@ Future Finance A.I. Challenge 2020
 
 ## 2020.09.07 Review
 1. White-box-Cartoonization 모델 추가
-[paper](https://github.com/SystemErrorWang/White-box-Cartoonization/blob/master/paper/06791.pdf)
-[github](https://github.com/SystemErrorWang/White-box-Cartoonization)
 2. White-box-Cartoonization 구조 파악 및 정리
 3. pretrain된 모델 데이터로 실행이 잘됨. transfer를 통해 추가 학습 필요없다고 판단.
 
