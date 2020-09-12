@@ -40,8 +40,9 @@ Future Finance A.I. Challenge 2020
 
 |Model|Paper|Code|
 |:---|:---|:---|
-| U-GAT-IT | [Paper](https://arxiv.org/pdf/1907.10830.pdf) | [GitHub](https://github.com/znxlwm/UGATIT-pytorch) |
-| StyleGAN | [Paper](https://arxiv.org/pdf/1812.04948.pdf) | [GitHub](https://github.com/rosinality/stylegan2-pytorch) |
+|   U-GAT-IT   | [Paper](https://arxiv.org/pdf/1907.10830.pdf) | [Code](https://github.com/znxlwm/UGATIT-pytorch) |
+|   StyleGAN   | [Paper](https://arxiv.org/pdf/1812.04948.pdf) | [Code](https://github.com/rosinality/stylegan2-pytorch) |
+| StyleTransfer| [Paper](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf) | [Code](https://pytorch.org/tutorials/advanced/neural_style_tutorial.html) |
 
 2. FreezeD / ADA 논문 리뷰
 
@@ -166,4 +167,10 @@ Future Finance A.I. Challenge 2020
 
 
 ------------------------------
+
+# 최총본
+1. U_GAT_IT + TV Loss (여신강림)
+2. U_GAT_IT + TV Loss (연놈)
+3. White-Box-Cartoonization (Pretrained)
+4. Style Transfer
 
